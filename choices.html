@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles/style_payment.css">
+	<link rel="stylesheet" type="text/css" href="styles/nav_footer.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" 
+	integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<title></title>
+</head>
+<body>
+
+	<table border=0 width=100%>
+	
+<nav>
+<div class="logo">
+	<h1><a href="#"> uPark </a></h1>
+</div>
+<ul>
+	<!-- navigation bar -->
+		<li><a href="Howit.html" class="active">How it works</a></li>
+		<li><a href="solution.html">Solutions</a></li>
+		<li><a href="contact.php">Contact Us</a></li>
+		<li><a href="login.php">Login</a></li>
+		<li><a href="signUp.php">Sign Up</a></li>
+	</ul>
+</nav>
+
+		<tr>
+			<td><div  class="padding">Parking at</div> </td>
+			<td></td>
+			<td><div  class="padding">Parking from</div></td>
+			<td colspan="2"><div  class="padding">Parking until</td>
+
+		</tr>
+		<tr>
+			<td  colspan="2"><div class="paddingsearch">
+				<input type="text" id="searchbar" name="searchbar"  class="heighttext" size="100">
+			</div></td>
+
+			<td><div class="paddingsearch">
+				<input type="datetime-local" id="appt" name="appt" class="heighttext" >
+			</div></td>
+			
+			<td><div class="paddingsearch">
+				<input type="datetime-local" id="appt" name="appt" class="heighttext" >
+			</div></td>
+			<td><div align="center" class="paddingsearch" >
+				<button class="button">SEARCH</button>
+			</div></td>
+		</tr>
+	
+		<tr rowspan="5">
+			<td width="40%" class="mapspace" style="vertical-align: top;">
+
+		    <div align="right" >
+		    	<button onClick="location.href='index.html'" value='click here'>CLOSE</button>
+		    </div>
+
+			<div>
+				<img src="images/card.png" width="100%" height="250">
+      			<br> <br>
+			</div>
+			<div>
+				
+				<ul class="tab">
+  <li><a href="#" class="tablinks active" onclick="openChoice(event, 'Information')">Information</a></li>
+  <li><a href="#" class="tablinks" onclick="openChoice(event, 'Reviews')">Reviews</a></li>
+  <li><a href="#" class="tablinks" onclick="openChoice(event, 'How to Park')">How to Park</a></li>
+</ul>
+
+<div id="Information" class="tabcontent" style="display:block">
+  <div class="card">
+  <div>
+    <div class="scrollable">
+      <img src="images/image20.png" width="400px" height="150">
+      <br>
+      <p>
+      	Parking for Waterloo, the London Eye & Westminster Bridge to Houses of Parliament.
+		<br><br> Open 24/7
+		<br><br> *Inside The Congestion Charge Zone*
+      </p>
+      <br><br>
+      <img src="images/image13.png" width="400px" height="150">
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+
+<div id="Reviews" class="tabcontent">
+  <div class="card">
+  <div>
+    <div class="scrollable">
+      <img src="images/image14.png" width="400px" height="150">
+      <br> <br>
+
+      <img src="images/image15.png" width="400px" height="150">
+      <br> <br>
+
+      <img src="images/image16.png" width="400px" height="150">
+      <br> <br>
+
+      <img src="images/image17.png" width="400px" height="150">
+      <br> <br>
+
+      <img src="images/image18.png" width="400px" height="150">
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+
+<div id="How to Park" class="tabcontent">
+  <div class="card">
+  <div>
+    <div class="scrollable">
+      <img src="images/image19.png" width="420px" height="380">
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<script type="text/javascript">
+	
+	function openChoice(evt, choice) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(choice).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+
+			</div>
+			<div align="center"><br>
+				<a href="payment.php">
+					<button type="submit" class="paybtn"><b>RESERVE</b> </button>	</div>
+				</a>
+			</td>
+			<td colspan="4" valign="top"><br><br> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9933.106625926035!2d-0.13536522235947263!3d51.50814022938285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sInformation%2C%20UK!5e0!3m2!1sen!2slk!4v1633540951416!5m2!1sen!2slk" width="1000" height="645" style="border:0;" allowfullscreen="" loading="lazy"></iframe></td>
+
+		</tr>
+
+
+		</tr>
+
+	</table>
+	<footer>
+            <div class="container">
+                <div class="about_us">
+					<h2> About Us </h2>
+					<p> uPark was founded with the goal of answering any parking query, wherever in 
+					the globe. uPark has evolved to become the world's largest parking service provider, with 
+					millions of drivers and organizations using the services. uPark has successfully 
+					built a suite of services for its customers and established a winning presence 
+					throughout the world over the years. </p>
+					<ul class = "pay">
+						<li><a href="#"><i class="fa fa-cc-visa" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-cc-mastercard" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-cc-amex" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-cc-paypal" aria-hidden="true"></i></a></li>
+					</ul>
+			</div>		
+                <div class="first">
+					<h2> Quick Links </h2>
+                        <ul>
+                            <li><a href="Howit.html">How it works</a></li>
+                            <li><a href="contact.php">Get free parking</a></li>
+							<li><a href="solution.html">Student Discount</a></li>
+                            <li><a href="marketing.html">Marketing and Reservation</a></li>
+                            <li><a href="support.html">Support</a></li>
+                            <li><a href="contact.php">Contact Us</a></li>
+							<li><a href="#">My Account</a></li>
+                        </ul>
+                </div>
+				<div class = "final">
+					<ul class = "icon">
+						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+					</ul>
+					<br><br>
+					<h4> Download the app </h4>
+					<div class = "apple">
+						<img src = "images/ios_badge.png" width = "45%" alt = "apple">
+					</div>
+					<div class = "android">
+						<img src = "images/android_badge.png" width = "45%" alt = "android">
+					</div>
+				</div>	
+		    </div>			
+    </footer>
+	<div class = "copyright">		
+        <p> © Copyright uPark 2021. All Rights Reserved. </p>
+	</div>	
+
+
+</body>
+</html>

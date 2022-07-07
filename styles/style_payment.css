@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+
+*{
+  margin:0px;
+  padding:0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* NAVIGATION BAR */
+
+nav{
+  height: 75px;
+  background-color: #505d61;
+  line-height: 75px;
+  padding:0px 100px;
+  z-index: 1;
+}
+
+nav .logo{
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 1.5px; 
+}
+
+nav .logo h1{
+  float: left;
+  color: SeaGreen;
+}
+
+nav .logo a{
+  color: SeaGreen;
+}
+
+nav ul{
+  float: right;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+}
+
+nav ul li a{
+  color:#fff;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding:0px 32px;
+}
+
+nav ul li a:hover{
+  color:#c0d96f;
+}
+
+nav ul li .active{
+  color:#c0d96f;
+}
+
+table,td {
+			font-size: 16px;
+			font-family: Arial;
+			margin: 0;
+
+		}
+		.button {
+  			background-color: #4CAF50;
+  			border: none;
+  			color: white;
+  			padding: 15px 32px;
+ 			text-align: center;
+  			text-decoration: none;
+  			display: inline-block;
+  			font-size: 16px;
+  			cursor: pointer;
+}
+		
+		.card{
+  width: 400px;
+  height: auto;
+ 
+
+}
+
+.parks {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 15px;
+}
+
+.parks:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.scrollable{
+  overflow-y: auto;
+  max-height: 250px;
+}
+
+.scrollable1 {
+  overflow-y: auto;
+  max-height: 590px;
+}
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    width: 112px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+}
+
+.padding {
+	padding-bottom: 0px;
+
+}
+
+.paddingsearch {
+	padding-top: 0px;
+}
+
+
+.heighttext {
+	height: 25px;
+}
+
+.mapspace {
+	padding-top: 10px;
+	padding-bottom: 0px;
+  
+}
+
+.textlength {
+  width: 100px;
+}
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 60%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.savebtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 15px 20px;
+  margin: 5px 0;
+  margin-bottom: 10px;
+  border: none;
+  cursor: pointer;
+  width: 67%;
+  opacity: 0.8;
+  font-size: 18px;
+}
+
+.savebtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+
+}
+
+.formcard{
+  width: 90%;
+  height: 470px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  background-color: #FFFFFF;
+}
+
+.formcardright{
+  width: 100%;
+  height: 335px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  background-color: #FFFFFF;
+}
+
+.formcardrightbottom{
+  width: 100%;
+  height: 320px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  background-color: #FFFFFF;
+}
+
+.securetext {
+  width: 400px;
+  margin-left: 50px;
+  margin-top: -70px;
+  padding: 10px;
+}
+
+.securetext p {font-size: 15px;}
+
+.tick {
+  margin-left: 25px;
+}
+
+.inputheight {
+  height: 10px;
+}
+
+.paybtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 15px 20px;
+  margin: 5px 0;
+  margin-bottom: 10px;
+  border: none;
+  cursor: pointer;
+  width: 67%;
+  opacity: 0.8;
+  font-size: 18px;
+}
+
+.paybtn:hover {
+  opacity: 1;
+}
+
+
+
+footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 100px;
+  background: DarkSlateGrey;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer .container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer .container .about_us{
+  margin-left: -50px;
+  width: 400px;
+}
+
+footer .container .about_us h2{
+  position: relative;
+  color: AliceBlue;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+footer .container .about_us h2:before{
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50%;
+  height: 4px;
+  background: Gainsboro;
+}
+
+footer .container .about_us p{
+  color: #999;
+  font-size: 16px;
+}
+
+.icon{
+  margin-top: 30px;
+  display: flex;
+  margin-right: 120px;
+}
+
+.icon li{
+  list-style: none;
+}
+
+.icon li a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #222;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.icon li a:hover{
+  background: LightSeaGreen;
+}
+
+.icon li a .fa{
+  color: white;
+  font-size: 20px;
+}
+
+.first{
+  width: 400px;
+  margin-top: 10px;
+  margin-left: 230px;
+}
+
+.first h2{
+  position: relative;
+  color: AliceBlue;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.first h2:before{
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50%;
+  height: 4px;
+  background: Gainsboro;
+}
+
+.first ul li{
+  list-style: none;
+}
+
+.first ul li a{
+  color: #999;
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.first ul li a:hover{
+  color: LightSeaGreen;
+}
+
+.pay{
+  margin-top: 30px;
+  display: flex;
+  margin-right: 30px;
+}
+
+.pay li{
+  list-style: none;
+}
+
+.pay li a{
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.pay li a .fa{
+  color: white;
+  font-size: 32px;
+}
+
+.copyright{
+  width: 100%;
+  background: #181818;
+  padding: 8px 100px;
+  text-align: center;
+  color: #999;
+}
+
+.final{
+  margin-top: 10px;
+  margin-right: -120px;
+}
+
+.final h4{
+  position: relative;
+  color: AliceBlue;
+  font-size: 20px;
+  margin-bottom: 15px;
+} 
+
+
+

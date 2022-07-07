@@ -1,0 +1,829 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+/* SOLUTIONS */
+
+.parking_solutions {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../images/street.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;  
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+}
+
+.solutions {
+  border: white;
+  margin-top: 120px;
+  margin-bottom: 0px;
+  margin-right: 150px;
+  margin-left: 80px;
+  padding: 50px;
+  background-color: white;
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-120%, -50%);
+}
+
+.solutions h2 {
+	font-family: Bradley Hand, cursive;
+	font-size: 30px;
+}
+
+.solutions h4 {
+	font-family: Bradley Hand, cursive;
+	color: DarkSlateGrey;
+	font-size: 18px;
+} 
+
+.solutions .bttn2 {
+	background-color: DarkOliveGreen;
+    border-radius: 8px;
+	color: white;
+	padding: 10px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.discover_our_solutions {
+	float: right;
+	padding: 75px;
+    margin-top: 50px;
+	width: 60%;
+}
+
+.parking_solution {
+  border: white;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 50px;
+  margin-left: 80px;
+  padding: 60px;
+  background-color: Gainsboro;
+  width: 50%;
+}
+
+.parking_solution h2 {
+	font-family: Bradley Hand, cursive;
+	font-size: 30px;
+}
+
+.parking_solution h3 {
+	font-family: Bradley Hand, cursive;
+	color: DarkSlateGrey;
+	font-size: 18px;
+} 
+
+.parking_solution p {
+	font-family: Bradley Hand, cursive;
+	color: DarkSlateGrey;
+	font-size: 18px;
+} 
+
+.parking_solution .bttn2 {
+	background-color: white;
+    border-radius: 8px;
+	color: DarkOliveGreen;
+	padding: 10px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.click_for_more {
+	float: left;
+	padding: 5px;
+	width: 40%;
+	margin-top: 2px;
+	margin-bottom: 100px;
+	margin-right: 100px;
+    margin-left: 200px;
+}
+
+.parking_solution_1 {
+  border: white;
+  text-align: right;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  margin-right: 250px;
+  margin-left: 600px;
+  padding: 40px;
+  background-color: white;
+  width: 50%;
+}
+
+.parking_solution_1 h2 {
+	font-family: Bradley Hand, cursive;
+	font-size: 30px;
+}
+
+.parking_solution_1 h3 {
+	font-family: Bradley Hand, cursive;
+	color: DarkSlateGrey;
+	font-size: 18px;
+} 
+
+.parking_solution_1 p {
+	font-family: Bradley Hand, cursive;
+	color: DarkSlateGrey;
+	font-size: 18px;
+} 
+
+.parking_solution_1 .bttn3 {
+	background-color: DarkOliveGreen;
+    border-radius: 8px;
+	color: white;
+	padding: 10px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.student_discount {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../images/student.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;  
+  background-size: cover;
+  background-position: center;
+  height: 1500%;
+  width: 92%;
+  padding: 175px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 500px;
+  margin-left: 50px;
+}
+
+.contact_us_for_more {
+  border: white;
+  margin-top: -340px;
+  margin-bottom: 100px;
+  margin-right: -110px;
+  margin-left: 1000px;
+  padding: 50px;
+  background-color: DarkSeaGreen;
+  width: 60%;
+  float: right;
+}
+
+.student_discount h2{
+	font-family: Bradley Hand, cursive;
+	font-size: 40px;
+	color: white;
+	margin-left: -50px;
+	margin-bottom: 0px;
+    margin-right: 10px;
+	margin-top: -5px;
+	padding: 10px;
+}
+
+.contact_us_for_more p{
+	font-family: Bradley Hand, cursive;
+	color: black;
+	font-size: 20px;
+}
+
+.contact_us_for_more .bttn5 {
+	background-color: DarkOliveGreen;
+    border-radius: 8px;
+	color: white;
+	padding: 10px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;	
+}
+
+.support{
+	float: right;
+	padding: 100px;
+    margin-top: -50px;
+    margin-right: 50px;	
+	margin-bottom: -100px;
+	width: 60%;
+}
+
+.support_carpark {
+  border: white;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 50px;
+  margin-left: 80px;
+  padding: 60px;
+  background-color: Azure;
+  width: 90%;
+}
+
+.support_carpark h2 {
+	font-family: Bradley Hand, cursive;
+	font-size: 30px;
+}
+
+.support_carpark h3 {
+	font-family: Bradley Hand, cursive;
+	color: DarkSlateGrey;
+	font-size: 18px;
+} 
+
+.support_carpark p {
+	font-family: Bradley Hand, cursive;
+	color: DarkSlateGrey;
+	font-size: 18px;
+} 
+
+.support_carpark .bttn4 {
+	background-color: DarkCyan;
+    border-radius: 8px;
+	color: white;
+	padding: 10px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+/* CONTACT US */
+
+.contact {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../images/parking.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;  
+	background-size: cover;
+	background-position: center;
+	height: 650px;
+}
+
+.contact_us {
+  border: black;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-right: 150px;
+  margin-left: 20px;
+  padding: 70px;
+  background-color: Gainsboro;
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-120%, -50%);
+}
+
+.contact_us p {
+	font-family: Bradley Hand, cursive;
+	color: DarkSlateGrey;
+	font-size: 20px;
+}
+
+.contact_us h1 {
+	font-family: Courier, monospace;
+	font-size: 32px;
+}
+
+.contact_us h3 {
+	font-family: Bradley Hand, cursive;
+	color: DarkSlateGrey;
+	font-size: 22px;
+}
+
+.info{
+	color: DarkSlateGrey;
+	max-width: 500px;
+	line-height: 6px;
+	padding-left: 50px;
+	font-size: 18px;
+}
+
+.info i{
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+.contact_form {
+	width: 700px;
+	margin-bottom: 100px;
+	margin-left: 750px;
+	margin-right: 20px;
+	margin-top: 0px;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.contact_form .first_name {
+	display: flex;
+	width: calc(50% - 10px);
+	margin-left: 0px;
+	margin-top: -60px;
+	border: 0;
+	background: #111;
+	padding: 20px 40px;
+	outline: none;
+	color: #ddd;
+	transition: 0.5s;
+	opacity: 0.9;
+	border-radius: 8px;
+}
+
+.contact_form .last_name {
+	float: right;
+	display: flex;
+	width: calc(50% - 10px);
+	box-sizing: border-box;
+	margin-right: 0px;
+	margin-top: -60px;
+	border: 0;
+	background: #111;
+	padding: 20px 40px;
+	outline: none;
+	color: #ddd;
+	transition: 0.5s;
+	opacity: 0.9;
+	border-radius: 8px;
+}
+
+.contact_form .email {
+	display: flex;
+	width: calc(50% - 10px);
+	box-sizing: border-box;
+	margin-top: 16px;
+	margin-left: 0px;
+	border: 0;
+	background: #111;
+	padding: 20px 40px;
+	outline: none;
+	color: #ddd;
+	transition: 0.5s;
+	opacity: 0.9;
+	border-radius: 8px;
+}
+
+.contact_form .mobile_no {
+	float: right;
+	display: flex;
+	width: calc(50% - 10px);
+	box-sizing: border-box;
+	margin-top: -60px;
+	margin-right: 0px;
+	border: 0;
+	background: #111;
+	padding: 20px 40px;
+	outline: none;
+	color: #ddd;
+	transition: 0.5s;
+	opacity: 0.9;
+	border-radius: 8px;
+}
+
+textarea.message{
+	height: 130px;
+	display: flex;
+	width: 100%;
+	box-sizing: border-box;
+	margin-left: 0px;
+	margin-top: 16px;
+	border: 0;
+	background: #111;
+	padding: 20px 40px;
+	outline: none;
+	color: #ddd;
+	transition: 0.5s;
+	opacity: 0.9;
+	border-radius: 8px;
+}
+
+img{
+	border-radius: 4px;
+}
+
+.submit_bttn {
+	font-family: Bookman, URW Bookman L, serif;
+	font-size: 20px;
+	float: right;
+	background: DarkCyan;
+    border-radius: 8px;
+	color: white;
+	padding: 15px 50px;
+	text-align: center;
+	cursor: pointer;
+	transition: 0.5s;
+	opacity: 0.9;
+}
+
+.submit_bttn:hover{
+	background: CadetBlue;
+}
+
+.contact_form-text:focus{
+	box-shadow: 0 0 10px 4px #34495e;
+}
+
+.contact_form h3{
+	font-family: Bradley Hand, cursive;
+	color: white;
+	font-size: 22px;
+}
+
+.form-box{
+	max-width: 325px;
+	max-height: 145px;
+	background: #111;
+	opacity: 0.9;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	padding: 30px;
+	border-radius: 8px;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-top: -10px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-family: Bradley Hand, cursive;
+  color: white;
+  font-size: 18px;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: CadetBlue;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #008080;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+/* HOME */
+
+#offer{
+	border: 25px;
+	border-radius: 12px;
+	background: DarkSeaGreen;
+	padding: 50px; 
+	width: 95%;
+	height: 400px; 
+	margin-bottom: 10px;
+	margin-left: 33.33px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#offer .buttn1{
+	background-color: SeaGreen;
+    border-radius: 8px;
+	color: white;
+	padding: 10px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	margin-left: 0px;
+	margin-top: 20px;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+
+#offer .buttn1:hover{
+	background-color: MediumAquaMarine; 
+    color: white;
+}
+
+#offer h1{
+	font-family: Georgia, serif;
+	font-size: 50px;
+	margin-top: 10px;
+	color: #2F4F4F;
+}
+
+#offer .booking {
+	margin-top: -265px;
+    margin-left: 670px;
+	width: 55%;
+}
+
+#app{
+	border: 25px;
+	border-radius: 12px;
+	background: MediumAquaMarine;
+	padding: 50px; 
+	width: 95%;
+	height: 600px; 
+	margin-bottom: 10px;
+	margin-left: 33.33px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#app .app{
+	margin-top: -170px;
+    margin-left: 850px;
+	width: 37%;
+}
+
+#app h2 {
+	font-family: Georgia, serif;
+	font-size: 35px;
+	margin-top: 50px;
+	color: #2F4F4F;
+}
+
+#app h4 {
+	font-family: Georgia, serif;
+	font-size: 28px;
+	margin-top: 10px;
+	color: white;
+}
+
+#app .apple {
+	margin-top: -300px;
+    margin-left: 0px;
+	width: 15%;
+}
+
+#app .android {
+	margin-top: -67px;
+    margin-left: 230px;
+	width: 15%;
+}
+
+/* RATINGS */
+
+a{
+    text-decoration: none;
+}
+#user_ratings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+}
+
+.heading{
+    letter-spacing: 1px;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading h1{
+    font-size: 32px;
+    font-weight: 500;
+	margin-bottom: 10px;
+    background-color: #202020;
+    color: AliceBlue;
+    padding: 10px 20px;
+	font-family: Bradley Hand, cursive;
+}
+
+.heading h3{
+    font-size: 20px;
+    color: DimGrey;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+	font-family: Bradley Hand, cursive;
+}
+
+.rating_box_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+.ratings_box{
+    width:500px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.profile-img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.profile-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.username{
+    display: flex;
+    flex-direction: column;
+}
+
+.username strong{
+    color: #3d3d3d;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+.username span{
+    color: #979797;
+    font-size: 15px;
+}
+
+.reviews{
+    color: #f9d71c;
+}
+
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+	max-height: 50px;
+}
+
+.comment p{
+    font-size: 18px;
+    color: DimGrey;
+}
+
+.ratings_box:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+
+.park{
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../images/smart-parking.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;  
+    background-size: cover;
+    background-position: center;
+    height: 675px;
+}
+
+.park_main{
+	border: white;
+	margin-top: 10px;
+	margin-right: 150px;
+	margin-left: 60px;
+	padding: 50px;
+	text-align: left;
+	position: absolute;
+	transform: tranxlate(-120%, -50%);
+	width: 900px;
+}
+
+.park_main h1{
+	font-family: Georgia, serif;
+	font-size: 47px;
+	margin-top: 100px;
+	color: FloralWhite;
+}
+
+.park_main h3{
+	font-family: Georgia, serif;
+	color: MintCream;
+	margin-top: 10px;
+	font-size: 30px;
+}
+
+.park_main h4{
+	font-family: Georgia, serif;
+	color: MintCream;
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+#submitBtn{
+	position: relative;
+	font-size: 20px;
+	float: left;
+	background: Teal;
+	color: white;
+	padding: 10px 168.4px;
+	text-align: center;
+	cursor: pointer;
+	transition: 0.3s;
+	opacity: 0.9;
+	margin-top: 100px;
+}
+
+#submitBtn:hover{
+	background-color: White; 
+    color: Teal;
+}
+
+.carpark_management {
+	float: left;
+	padding: 5px;
+	width: 50%;
+	margin-top: 2px;
+	margin-bottom: 100px;
+	margin-right: 100px;
+    margin-left: 100px;
+}
+
+.management {
+  border: white;
+  text-align: right;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  margin-right: 150px;
+  margin-left: 600px;
+  padding: 10px;
+  background-color: white;
+  width: 55%;
+}
+
+.management h2 {
+	font-family: Bradley Hand, cursive;
+	font-size: 37px;
+}
+
+.management h3 {
+	font-family: Bradley Hand, cursive;
+	color: DarkSlateGrey;
+	font-size: 18px;
+} 
+
+.management .bttn3 {
+	background-color: DarkOliveGreen;
+	color: white;
+	padding: 10px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}

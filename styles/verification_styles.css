@@ -1,0 +1,32 @@
+.head h1{
+	font-family:Arial Narrow, sans-serif;
+	font-size:65px;
+	font-weight:900;
+	color:#3d3d3d;
+}
+.line p{
+	font-family: Bradley Hand, cursive;
+	font-size:25px;
+	font-weight:400;
+	color:gray;
+}
+
+.bttn button{
+	font-family:Arial Narrow, sans-serif;
+    font-size: 25px;
+	max-width:200px;
+    float: center;
+    background: #4CAF50;
+    border-radius: 10px;
+	border:none;
+    color: white;
+    padding: 10px 26px;
+    text-align: center;
+    cursor: pointer;
+    
+    background-color:seagreen;
+	font-weight:600;
+}
+.bttn button:hover{
+	background-color:darkgreen;
+}
